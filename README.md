@@ -1,12 +1,16 @@
 # Project: Unsupervised Customer
+The client is an online retailer. They sell all occasion gifts and many of their customers are wholesalers. Most of their customers are from the UK but they have a small percentage of customers from other countries. The client want to create groups of these international customers based on their previous purchase patterns. Their goals is to provide more tailored services and improve the way they market to these international customers.
+Currently the retailer simply groups their international customers by country (which is quite in-efficient).
+The retailer has hired me to help them create 3 clusters of their international customers(customer segment) through a data driven approach. they provided me with a dataset of past purchases at transaction level. 
 
+My role is to build a clustering model using the dataset supplied. This clustering model should factor in both aggregate sales patterns and specific items purchased.
 
 ## Specifics
-- Deliverables: An executable model script
-- Task : Classification
-- Target Variable: Status(Employed/Left)
+- Deliverables: Clusters for customers
+- Task : Clustering
+- Target Variable: NA
 - Input Features: As seen in the dataset
-- Win Condition: NA (best possible model)
+- Win Condition: NA (subjective results)
 
 
 ## Install
@@ -24,20 +28,18 @@ This project requires **Python** and the following Python libraries installed:
 ### Data
 Employee data in csv format.
 
-**Features**
-1.  `avg_monthly_hrs`
-2. `last_evaluation`
-3. `satisfaction`
+**Concepts**
+- Data wrangling(Aggregating and restructuring the dataset).
+- Dimensionality reduction(how to handle dataset with high number of features).
+- Principal Component Analysis (for reducing dimensionality).
+- Clustering Algorithm(K-means).
+- Cluster Analysis.
 
-**Target Variable**
-4. `Status`
 
 
-### Module one: Exploratory analysis Plus
+### Module one: Data Wrangling: Aggregating & Restructuring the Dataset.
 - Explored basic information about the dataset.
-- Plotted distributions of numeric and categorical features.
-- Segmented dataset by 'status'.
-- Explored bivariate segmentations.
+
 
 
 
