@@ -38,8 +38,10 @@ Employee data in csv format.
 
 
 ### Module one: Data Wrangling: Aggregating & Restructuring the Dataset.
-- Explored basic information about the dataset.
-
+- explored basic information and cleaned the transaction-level dataset.
+- create customer level datasets, and aggregate new features.
+- use intermediary groupby's to create tricky features.
+- joined all customer-level datasets together into one analytical base table.
 
 
 
