@@ -44,6 +44,14 @@ Employee data in csv format.
 - joined all customer-level datasets together into one analytical base table.
 
 
+### Module two: Dimensionality Reduction
+
+- implement how Curse of Dimensionality can cause issues for clustering.
+- toy example to see the process of rolling up item data.
+- created customer-level item features that represent the number of times each item was purchased.
+- reduce the dimensionality of that dataset using thresholds.
+
+
 
 
 
